@@ -1,5 +1,12 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+}
+
+.App svg {
+  border: 1px solid black;
 }
 
 .App-logo {
