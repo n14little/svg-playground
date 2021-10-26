@@ -54,7 +54,7 @@ function ViewboxPlayground() {
                 }}>Left</button>
             </section>
 
-            <main>
+            <section>
                 <svg xmlns="http://www.w3.org/2000/svg" height={height} width={width} viewBox={`${currentViewbox.x} ${currentViewbox.y} ${currentViewbox.width} ${currentViewbox.height}`}>
                     <circle cx={width / 2} cy={height / 2} r={shapeSize} fill='red' />
                     <rect
@@ -82,7 +82,7 @@ function ViewboxPlayground() {
                         width={shapeSize}
                     />
                 </svg>
-            </main>
+            </section>
 
             <details>
                 <summary>Viewbox History</summary>
